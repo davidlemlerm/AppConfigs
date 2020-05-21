@@ -1,0 +1,278 @@
+{
+    "createdBy": "Redirector v3.5.2",
+    "createdAt": "2020-03-23T20:11:23.977Z",
+    "redirects": [
+        {
+            "description": "Download On APKMirror",
+            "exampleUrl": "https://www.apkmirror.com/apk/soundhound-inc/soundhound/soundhound-8-9-11-release/soundhound-music-discovery-hands-free-player-8-9-11-android-apk-download/",
+            "exampleResult": "https://www.apkmirror.com/apk/soundhound-inc/soundhound/soundhound-8-9-11-release/soundhound-music-discovery-hands-free-player-8-9-11-android-apk-download/download/",
+            "error": null,
+            "includePattern": "https://www.apkmirror.com/apk/*/*/*/*-android-apk-download/",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.apkmirror.com/apk/$1/$2/$3/$4-android-apk-download/download/",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Force DuckDuckGo Safe Search",
+            "exampleUrl": "https://duckduckgo.com/?q=query&ia=web",
+            "exampleResult": "https://safe.duckduckgo.com/?q=query&ia=web",
+            "error": null,
+            "includePattern": "https://duckduckgo.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://safe.duckduckgo.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Force DuckDuckGo Start Page View",
+            "exampleUrl": "https://duckduckgo.com/?q=query&ia=web",
+            "exampleResult": "https://start.duckduckgo.com/?q=query&ia=web",
+            "error": null,
+            "includePattern": "https://duckduckgo.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://start.duckduckgo.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Old Simplenote to New Simplenote",
+            "exampleUrl": "https://app.simplenote.com/signin",
+            "exampleResult": "https://app.simplenote.com/signin?new=true",
+            "error": null,
+            "includePattern": "https://app.simplenote.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://app.simplenote.com/$1?new=true",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Reddit Redesign to Old Reddit",
+            "exampleUrl": "https://www.reddit.com/",
+            "exampleResult": "https://old.reddit.com/",
+            "error": null,
+            "includePattern": "https://www.reddit.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://old.reddit.com$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Old Reddit to Reddit Redesign",
+            "exampleUrl": "https://old.reddit.com/",
+            "exampleResult": "https://reddit.com/",
+            "error": null,
+            "includePattern": "*old.reddit.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://reddit.com$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect YouTube To Invidious",
+            "exampleUrl": "https://www.youtube.com/watch?v=2lAe1cqCOXo",
+            "exampleResult": "https://invidio.us/watch?v=2lAe1cqCOXo",
+            "error": null,
+            "includePattern": "*www.youtube.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$1invidio.us$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Twitter To Nitter",
+            "exampleUrl": "https://twitter.com/Twitter/status/1234847926477901827",
+            "exampleResult": "https://nitter.net/Twitter/status/1234847926477901827",
+            "error": null,
+            "includePattern": "*twitter.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$1nitter.net$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Subreddit to Full URL",
+            "exampleUrl": "http://r/Redirector",
+            "exampleResult": "https://reddit.com/r/Redirector",
+            "error": null,
+            "includePattern": "http://r/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://reddit.com/r/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Reddit Profile to Full URL",
+            "exampleUrl": "http://u/Redirector",
+            "exampleResult": "https://reddit.com/u/Redirector",
+            "error": null,
+            "includePattern": "http://u/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://reddit.com/u/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Twitter to Full URL",
+            "exampleUrl": "http://t/Redirector",
+            "exampleResult": "https://twitter.com/Redirector",
+            "error": null,
+            "includePattern": "http://t/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://twitter.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Facebook to Full URL",
+            "exampleUrl": "http://f/Redirector",
+            "exampleResult": "https://facebook.com/Redirector",
+            "error": null,
+            "includePattern": "http://f/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://facebook.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Remove Outlook Safelinks",
+            "exampleUrl": "https://nam04.safelinks.protection.outlook.com/?url=https://outlook.com",
+            "exampleResult": "https://outlook.com",
+            "error": null,
+            "includePattern": "https://*.safelinks.protection.outlook.com/?url=*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$2",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": true,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Canvas Home Pages to Modules",
+            "exampleUrl": "https://luoa.instructure.com/courses/courseid",
+            "exampleResult": "https://luoa.instructure.com/courses/courseid/modules",
+            "error": null,
+            "includePattern": "https://luoa.instructure.com/courses/*",
+            "excludePattern": "https://luoa.instructure.com/courses/*/*",
+            "patternDesc": "",
+            "redirectUrl": "https://luoa.instructure.com/courses/$1/modules",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Change BibleHub to ESV",
+            "exampleUrl": "https://biblehub.com/niv/genesis/1.htm",
+            "exampleResult": "https://biblehub.com/esv/genesis/1.htm",
+            "error": null,
+            "includePattern": "https://biblehub.com/*/*/*.htm",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://biblehub.com/esv/$2/$3.htm",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Redirect Planning Center People Access Request to Planning Center Services",
+            "exampleUrl": "https://people.planningcenteronline.com/apps/Accounts/request_access",
+            "exampleResult": "https://services.planningcenteronline.com/dashboard/0",
+            "error": null,
+            "includePattern": "https://people.planningcenteronline.com/apps/Accounts/request_access",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://services.planningcenteronline.com/dashboard/0",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Userstyles",
+            "exampleUrl": "http://userstyles.com/",
+            "exampleResult": "https://userstyles.org/",
+            "error": null,
+            "includePattern": "*userstyles.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://userstyles.org$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
