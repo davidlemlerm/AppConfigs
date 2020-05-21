@@ -1,0 +1,10 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+	"auto_complete": false,
+	"spell_check": true,
+	"rulers":
+	[
+		
+	],
+	"word_wrap": false,
+}
