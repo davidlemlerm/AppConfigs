@@ -1,0 +1,3 @@
+# David Lemler Application Configurations
+
+This repository contains configuration files for various applications that I use.  These configuration files were designed for my own use, however, they are also here in case they may be of use to others.  Since I designed them for my own use, be careful applying them for your own use without ensuring that the will fit your application, and make changes if necessary.
