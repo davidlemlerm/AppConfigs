@@ -1,5 +1,16 @@
 {
-	"always_prompt_for_file_reload": true,
+	"added_words":
+	[
+		"Colossians",
+		"Exclusionists",
+		"Trias",
+		"Politica",
+		"Geert",
+		"Hofstede",
+		"timeline",
+		"Lemler"
+	],
+	"always_prompt_for_file_reload": false,
 	"auto_complete_commit_on_tab": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
@@ -40,7 +51,7 @@
 		".vs",
 		"CVS"
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
