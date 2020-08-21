@@ -15,7 +15,7 @@ user_pref("dom.event.contextmenu.enabled", true);
 user_pref("dom.forms.selectSearch", true);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("extensions.pocket.enabled", false);
-user_pref("general.useragent.override", "Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/76.0");
+user_pref("general.useragent.override", "Mozilla/5.0 (X11; Linux x86_64; rv:79.0) Gecko/20100101 Firefox/79.0");
 user_pref("general.warnOnAboutConfig", false);
 user_pref("media.autoplay.default", 1);
 user_pref("network.cookie.cookieBehavior", 1);
