@@ -19,6 +19,7 @@ user_pref("general.useragent.override", "Mozilla/5.0 (X11; Linux x86_64; rv:79.0
 user_pref("general.warnOnAboutConfig", false);
 user_pref("media.autoplay.default", 1);
 user_pref("network.cookie.cookieBehavior", 1);
+user_pref("network.http.referer.defaultPolicy", 1);
 user_pref("network.http.sendRefererHeader", 2);
 user_pref("network.IDN_show_punycode", true);
 user_pref("print.print_footerleft", "");
