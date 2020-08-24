@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"10% Too Dull for My Tastes Color Scheme",
 		"COBOL Syntax",
 		"Coffee Color Scheme",
 		"Dracula Color Scheme",
@@ -15,6 +16,7 @@
 		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
-		"TodoTxt Syntax"
+		"TodoTxt Syntax",
+		"VBScript"
 	]
 }
