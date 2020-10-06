@@ -117,16 +117,21 @@ alias lla='ls -la'
 alias lockuser='sudo usermod -L'
 alias move='mv'
 alias pacinstall='sudo pacman -S --needed'
+alias pacnew='find / -name "*.pacnew" 2> /dev/null'
 alias pacsearch='pacman -Ss'
 alias start='screen'
 alias unlockuser='sudo usermod -U'
-alias zshrc='vim ~/.zshrc && source ~/.zshrc'
+alias zshrc='nvim ~/.zshrc && source ~/.zshrc'
 
-# add ~/bin to $PATH
-export PATH="$HOME/bin:$PATH"
 
-# add ~/.local/bin to $PATH
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+if [[ -n $SSH_CONNECTION ]]; then
+	alias sudo='sudo -A'
+	export SSH_ASKPASS="ksshaskpass"
+	export SUDO_ASKPASS="/usr/bin/ksshaskpass"
+fi
 
 if [[ "$-" = *i* ]]; then
 	neofetch
