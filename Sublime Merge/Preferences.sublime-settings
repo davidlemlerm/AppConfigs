@@ -1,0 +1,9 @@
+{
+	"hardware_acceleration": "opengl",
+	"theme": "Merge Dark.sublime-theme",
+	"diff_style": "inline",
+	"image_diff_style": "onion-skin",
+	"trim_trailing_white_space_on_save": false,
+	"always_show_command_status": true,
+	"git_binary": "system",
+}
