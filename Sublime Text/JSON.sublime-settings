@@ -4,6 +4,7 @@
 		"code-workspace",
 		"tscproj",
 		"flutecolors",
-		"webmanifest"
+		"webmanifest",
+		".prettierrc"
 	]
 }
