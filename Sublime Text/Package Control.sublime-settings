@@ -5,17 +5,27 @@
 	],
 	"installed_packages":
 	[
+		"Autoprefixer",
 		"COBOL Syntax",
-		"Coffee Color Scheme",
+		"CoolBase64",
 		"Dracula Color Scheme",
 		"EditorConfig",
 		"Generic Config",
+		"HDL Syntax Highlighting",
 		"iCalendar",
 		"Indent XML",
+		"JsPrettier",
 		"MarkdownPreview",
+		"MIPS Syntax",
 		"Package Control",
+		"PowerShell",
 		"Pretty JSON",
+		"Rust Enhanced",
+		"Sass",
 		"TodoTxt Syntax",
+		"TOML",
+		"TypeScript",
+		"URLEncode",
 		"VBScript"
 	]
 }
