@@ -1,9 +1,13 @@
 {
 	"hardware_acceleration": "opengl",
 	"theme": "Merge Dark.sublime-theme",
-	"diff_style": "inline",
+	"diff_style": "auto",
 	"image_diff_style": "onion-skin",
 	"trim_trailing_white_space_on_save": false,
-	"always_show_command_status": true,
+	"always_show_command_status": false,
 	"git_binary": "system",
+	"hide_menu": true,
+	"themed_title_bar": true,
+	"expand_merge_commits_by_default": true,
+	"side_bar_layout": "locations_as_column",
 }
