@@ -52,14 +52,6 @@
                 "fontSize" : 10
             },
             {
-                "icon" : "ms-appdata:///local/bash.ico",
-                "name" : "Git Bash",
-                "commandline" : "C:\\Program Files\\Git\\bin\\bash.exe",
-                "colorScheme" : "Dracula",
-                "fontFace" : "Consolas",
-                "fontSize" : 10
-            },
-            {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -85,6 +77,12 @@
                 "colorScheme" : "Dracula",
                 "fontFace" : "Consolas",
                 "fontSize" : 10
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
